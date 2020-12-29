@@ -3,8 +3,8 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="com.techbeamers.LoadTest01"/>
-      <class name="com.techbeamers.BasicTest"/>
+      <class name="com.techbeamers.Load01IT"/>
+      <class name="com.techbeamers.BasicIT"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

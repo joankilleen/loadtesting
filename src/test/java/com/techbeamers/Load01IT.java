@@ -17,7 +17,7 @@ import org.testng.annotations.BeforeClass;
 //--
 import org.testng.annotations.Test;
 
-public class LoadTest01 {
+public class Load01IT {
 
 	private WebDriver driver;
 
