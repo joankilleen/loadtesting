@@ -13,7 +13,6 @@
 		<testng.version>7.3.0</testng.version>
 		<java.version>1.8</java.version>
 		<maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
-		<maven-surefire-plugin.version>3.0.0-M3</maven-surefire-plugin.version>
 		<maven-failsafe-plugin.version>3.0.0-M5</maven-failsafe-plugin.version>
 		<threads>2</threads>
 	</properties>
@@ -30,14 +29,6 @@
 				<version>${maven-compiler-plugin.version}</version>
 			</plugin>
 
-<!-- 			<plugin> -->
-<!-- 				<groupId>org.apache.maven.plugins</groupId> -->
-<!-- 				<artifactId>maven-surefire-plugin</artifactId> -->
-<!-- 				<version>${maven-surefire-plugin.version}</version> -->
-<!-- 				<configuration> -->
-<!-- 					<skipTests>true</skipTests> -->
-<!-- 				</configuration> -->
-<!-- 			</plugin> -->
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
