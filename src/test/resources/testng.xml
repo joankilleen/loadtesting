@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
       <class name="com.techbeamers.LoadTest01"/>
+      <class name="com.techbeamers.BasicTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
